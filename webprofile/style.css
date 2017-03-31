@@ -1,0 +1,69 @@
+.wrap{
+	background: blue;
+	width: 900px;
+	margin: 10px auto;
+}
+
+/*bagian header*/
+.wrap .header{
+	background: DeepSkyBlue;
+	/*height: 50px;*/
+	padding: 1px 10px;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu{
+	background: yellow;
+}
+
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: yellow;
+	overflow: hidden;
+}
+
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+
+.clear{
+	clear: both;
+}
+
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebarkiri{
+	background: LawnGreen;
+	float: left;	
+	width: 20%;
+	height: 100%;
+}
+.wrap .badan .sidebarkanan{
+	background: LawnGreen;
+	float: right;	
+	width: 20%;
+	height: 100%;
+}
+
+/*akhir sidebar*/
+
+.wrap .badan .content{
+	background: Magenta;
+	float: center;
+	height: 100%;
+	width: 80%;
+	border	: 2px;	
+}
+
+.wrap .footer{
+	width: 100%;
+	padding: 5px;
+}
